@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/soapcli/soapcli.iml" filepath="$PROJECT_DIR$/soapcli/soapcli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soapi/soapi.iml" filepath="$PROJECT_DIR$/soapi/soapi.iml" />
+    </modules>
+  </component>
+</project>
+
