@@ -1,0 +1,6 @@
+[submodule "soapi"]
+	path = soapi
+	url = ./soapi
+[submodule "soapcli"]
+	path = soapcli
+	url = ./soapcli
