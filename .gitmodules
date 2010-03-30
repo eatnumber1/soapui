@@ -4,3 +4,6 @@
 [submodule "soapcli"]
 	path = soapcli
 	url = ./soapcli
+[submodule "javautil"]
+	path = javautil
+	url = ./javautil

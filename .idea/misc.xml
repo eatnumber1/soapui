@@ -26,6 +26,13 @@
         <option value="$PROJECT_DIR$/soapi/pom.xml" />
         <option value="$PROJECT_DIR$/soapgui/pom.xml" />
         <option value="$PROJECT_DIR$/soapcli/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/javautil/pom.xml" />
+      </list>
+    </option>
+    <option name="activeProfiles">
+      <list>
+        <option value="default" />
       </list>
     </option>
   </component>
