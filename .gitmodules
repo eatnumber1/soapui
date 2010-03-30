@@ -1,9 +1,9 @@
 [submodule "soapi"]
 	path = soapi
-	url = ./soapi
+	url = git://github.com/eatnumber1/soapi.git
 [submodule "soapcli"]
 	path = soapcli
-	url = ./soapcli
+	url = git://github.com/eatnumber1/soapcli.git
 [submodule "javautil"]
 	path = javautil
-	url = ./javautil
+	url = git://github.com/eatnumber1/javautil.git
