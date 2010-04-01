@@ -6,10 +6,69 @@
     <packaging>pom</packaging>
     <version>0.1</version>
     <name>soapui</name>
-    <url>http://maven.apache.org</url>
+    <url>http://eatnumber1.github.com/soapui/</url>
+    <scm>
+        <connection>scm:git://github.com/eatnumber1/soapui.git</connection>
+        <developerConnection>scm:git@github.com:eatnumber1/soapui.git</developerConnection>
+        <url>http://github.com/eatnumber1/soapui</url>
+    </scm>
+    <inceptionYear>2010</inceptionYear>
+    <description>Java Util contains various utility classes to help ease Java development.</description>
+    <developers>
+        <developer>
+            <name>Russell Harmon</name>
+            <id>eatnumber1</id>
+            <email>russ@eatnumber1.com</email>
+            <roles>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>LICENSE</url>
+            <distribution>manual</distribution>
+        </license>
+    </licenses>
     <modules>
         <module>soapcli</module>
         <module>soapi</module>
         <module>javautil</module>
     </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.6</source>
+                        <target>1.6</target>
+                    </configuration>
+                </plugin>
+                <!--<plugin>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>2.2-beta-5</version>
+                    <configuration>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                    </configuration>
+                </plugin>-->
+                <plugin>
+                    <artifactId>maven-source-plugin</artifactId>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <configuration>
+                        <quiet>true</quiet>
+                        <show>package</show>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
